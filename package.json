@@ -28,5 +28,8 @@
   },
   "bin":{
    "gendiff": "bin/gendiff.js" 
+  },
+  "src":{
+    "index": "src/index.js"
   }
 }

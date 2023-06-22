@@ -9,3 +9,6 @@ lint:
 
 gendiff:
 	node bin/gendiff.js
+
+hello:
+	node src/index.js
