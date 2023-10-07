@@ -1,2 +1,4 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/dvuro4ka/frontend-project-46/workflows/hexlet-check/badge.svg)](https://github.com/dvuro4ka/frontend-project-46/actions)
+### Codeclimate
+[![Maintainability](https://api.codeclimate.com/v1/badges/511480d15febd22127bc/maintainability)](https://codeclimate.com/github/dvuro4ka/frontend-project-46/maintainability)
