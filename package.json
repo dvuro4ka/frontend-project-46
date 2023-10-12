@@ -30,7 +30,7 @@
     "jest": "^29.7.0"
   },
   "bin": {
-    "gendiff": "./bin/gendiff.js"
+    "gendiff": "bin/gendiff.js"
   },
   "src": {
     "index": "./src/index.js"
