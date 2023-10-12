@@ -12,3 +12,6 @@ gendiff:
 
 hello:
 	node src/index.js
+
+test:
+	npx jest
