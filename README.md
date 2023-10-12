@@ -14,3 +14,10 @@ $ npm link
 ## Gendiff plain JSON object
 
 [![asciicast](https://asciinema.org/a/ezvchfRoivJvTuFeCczbKnD4M.svg)](https://asciinema.org/a/ezvchfRoivJvTuFeCczbKnD4M)
+
+## Gendiff calculation between two JSON files and two YAML files, format plain
+
+[![asciicast](https://asciinema.org/a/bnhP1rDoInW0EXqo5oTgQ3Ezp.svg)](https://asciinema.org/a/bnhP1rDoInW0EXqo5oTgQ3Ezp)
+
+## Gendiff calculation between two JSON files, format JSON
+[![asciicast](https://asciinema.org/a/JPIFyTZa0oKDWSwlyMKMTp4U4.svg)](https://asciinema.org/a/JPIFyTZa0oKDWSwlyMKMTp4U4)
