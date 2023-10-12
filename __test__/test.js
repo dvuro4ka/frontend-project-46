@@ -11,7 +11,7 @@ const readFile = (filename) => fs.readFileSync(getFixturePath(filename), 'utf-8'
 
 const expectedStylish = readFile('expectedStylish.txt');
 const expectedPlain = readFile('expectedPlain.txt');
-const expectedJson = readFile('expectJson.txt');
+const expectedJson = readFile('expectedJson.txt');
 
 const cases = [
   ['file1.json', 'file2.json', 'stylish', expectedStylish],
