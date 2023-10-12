@@ -1,0 +1,4 @@
+
+test("gendiff", () => {
+  expect([]).toEqual([]);
+});
