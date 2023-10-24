@@ -5,11 +5,10 @@ export const parse = (data, dataFormat) => {
     case 'json':
       return JSON.parse(data);
     case 'yaml':
-      return yaml.load(data);
     case 'yml':
       return yaml.load(data);
     default:
-      throw new Error('Wrong format');
+      throw new Error('Wrong format, your format', dataFormat, 'is not supported');
   }
 };
 

@@ -1,7 +1,7 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/dvuro4ka/frontend-project-46/workflows/hexlet-check/badge.svg)](https://github.com/dvuro4ka/frontend-project-46/actions)",
+  "description": "Gendiff is a command line utility that compares two configuration files and shows the difference. The formats available for comparison are JSON, YML, YAML.",
   "main": "src/index.js",
   "type": "module",
   "scripts": {
@@ -18,7 +18,6 @@
   },
   "homepage": "https://github.com/dvuro4ka/frontend-project-46#readme",
   "dependencies": {
-    "@jest/globals": "^29.7.0",
     "commander": "^11.0.0",
     "js-yaml": "^4.1.0",
     "lodash": "^4.17.21",
@@ -32,8 +31,5 @@
   },
   "bin": {
     "gendiff": "bin/gendiff.js"
-  },
-  "src": {
-    "index": "./src/index.js"
   }
 }
