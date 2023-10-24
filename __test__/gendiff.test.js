@@ -13,7 +13,7 @@ const formats = [['stylish'], ['plain'], ['json']];
 const filesFormat = [['json'], ['yaml'], ['yml']];
 
 describe.each(formats)('Test format %s', (format) => {
-  test.each(filesFormat)('Test file format %s', (fileFormat) => {
+  test.each(filesFormat)('Check file format %s', (fileFormat) => {
     const actual = gendiff(
       getFixturePath(`file1.${fileFormat}`),
       getFixturePath(`file2.${fileFormat}`),
