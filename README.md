@@ -11,6 +11,7 @@ The formats available for comparison are:
 - **JSON,** 
 - **YML,** 
 - **YAML.**
+
 It is also possible to display the differences in three formats:
 - **Stylish,**
 - **Plane,**
