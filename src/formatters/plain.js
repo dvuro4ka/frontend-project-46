@@ -3,7 +3,7 @@ import _ from 'lodash';
 const getValue = (value) => {
   switch (typeof value) {
     case 'object': {
-      return !value ? 'null' : '[complex value]';
+      return value ? '[complex value]' : 'null';
     }
     case 'string': {
       return `'${value}'`;
